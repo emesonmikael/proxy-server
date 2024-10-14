@@ -32,6 +32,7 @@ app.use('/proxy/:streamName', (req, res, next) => {
   }
 });
 
+
 // Rota para servir a playlist M3U8 com URLs proxy
 app.get('/playlist.m3u8', (req, res) => {
   const playlist = `
