@@ -15,7 +15,7 @@ app.use('/proxy/:streamName', (req, res, next) => {
 
   // Mapeie os nomes dos streams para suas URLs HTTP correspondentes
   const streamUrls = {
-    '628397.m3u8': 'http://cdn-br.in:80/978460358/473005646/628397.m3u8',
+    '1227625.mp4': 'http://cdn-br.in/movie/978460358/473005646/1227625.mp4',
     '628829.m3u8': 'http://cdn-br.in:80/978460358/473005646/628829.m3u8',
     '628398.m3u8': 'http://cdn-br.in:80/978460358/473005646/628398.m3u8',
     '628399.m3u8': 'http://cdn-br.in:80/978460358/473005646/628399.m3u8',
@@ -39,7 +39,7 @@ app.get('/playlist.m3u8', (req, res) => {
 #EXTM3U
 #EXT-X-SESSION-DATA:DATA-ID="com.xui.1_5_13"
 #EXTINF:-1 tvg-id="a.e.br" tvg-name="A&E FHD" tvg-logo="https://i.ibb.co/DzvKbBK/AEdw-DAdbs.png" group-title="Canais || Filmes & Séries",A&E FHD
-https://m3u8-proxy.onrender.com/proxy/628397.m3u8
+https://m3u8-proxy.onrender.com/proxy/1227625.mp4
 #EXTINF:-1 tvg-id="a.e.br" tvg-name="A&E FHD H.265" tvg-logo="https://i.ibb.co/DzvKbBK/AEdw-DAdbs.png" group-title="Canais || Filmes & Séries",A&E FHD H.265
 https://m3u8-proxy.onrender.com/proxy/628829.m3u8
 #EXTINF:-1 tvg-id="a.e.br" tvg-name="A&E HD" tvg-logo="https://i.ibb.co/DzvKbBK/AEdw-DAdbs.png" group-title="Canais || Filmes & Séries",A&E HD
