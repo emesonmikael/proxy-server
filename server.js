@@ -39,7 +39,7 @@ app.get('/playlist.m3u8', (req, res) => {
 #EXTM3U
 #EXT-X-SESSION-DATA:DATA-ID="com.xui.1_5_13"
 #EXTINF:-1 tvg-id="a.e.br" tvg-name="A&E FHD" tvg-logo="https://i.ibb.co/DzvKbBK/AEdw-DAdbs.png" group-title="Canais || Filmes & Séries",A&E FHD
-https://m3u8-proxy.onrender.com/proxy/1227625.mp4
+https://proxy-server-3nlb.onrender.com/proxy/1227625.mp4
 #EXTINF:-1 tvg-id="a.e.br" tvg-name="A&E FHD H.265" tvg-logo="https://i.ibb.co/DzvKbBK/AEdw-DAdbs.png" group-title="Canais || Filmes & Séries",A&E FHD H.265
 https://m3u8-proxy.onrender.com/proxy/628829.m3u8
 #EXTINF:-1 tvg-id="a.e.br" tvg-name="A&E HD" tvg-logo="https://i.ibb.co/DzvKbBK/AEdw-DAdbs.png" group-title="Canais || Filmes & Séries",A&E HD
