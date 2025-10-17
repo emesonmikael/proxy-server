@@ -28,7 +28,7 @@ app.use('/proxy', createProxyMiddleware({
       const originalText = body.toString('utf8');
 
       // Substituir os links no corpo da resposta
-      const modifiedText = originalText.replace(/https?:\/\/paineliptvbr\.ddns\.net/g, 'https://backend-aejq.vercel.app/proxy');
+      const modifiedText = originalText.replace(/http?:\/\/paineliptvbr\.ddns\.net/g, 'https://proxy-server-eight-omega.vercel.app/');
 
       res.setHeader('Content-Type', proxyRes.headers['content-type'] || 'text/plain');
       res.statusCode = proxyRes.statusCode;
