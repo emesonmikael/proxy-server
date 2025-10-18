@@ -24,7 +24,7 @@ app.use('/proxy', createProxyMiddleware({
 
 // Rota raiz para verificar se o servidor está ativo
 app.get('/', (req, res) => {
-  res.send('Servidor Proxy está rodando!');
+  res.send('Servidor Proxy está rodando sim!');
 });
 
 // Iniciar o servidor
